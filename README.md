@@ -16,4 +16,4 @@ Esse processo deverá ser repetido até que o elemento alvo seja encontrado, ou 
 
 Esse processo de dividir pela metade reduz drasticamente o número de elementos que precisamos verificar, tornando a busca binária muito eficiente. Pode parecer simples, mas é incrivelmente poderoso em listas grandes.
 
-[Visualizar implementação](https://github.com/williamroger/entendendo-algoritmos/tree/main/pesquisaBinaria)
+[Visualizar implementação](https://github.com/williamroger/entendendo-algoritmos/blob/main/pesquisaBinaria/index.js)
