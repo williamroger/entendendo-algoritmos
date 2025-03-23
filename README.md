@@ -15,3 +15,5 @@ Se o elemento do meio da lista for menor que elemento buscado então metade da l
 Esse processo deverá ser repetido até que o elemento alvo seja encontrado, ou até que toda a lista tenha sido percorrida e caso o elemento alvo não tenha sido encontrado então a pesquisa binária deverá retornar valor um valor nulo.
 
 Esse processo de dividir pela metade reduz drasticamente o número de elementos que precisamos verificar, tornando a busca binária muito eficiente. Pode parecer simples, mas é incrivelmente poderoso em listas grandes.
+
+[Visualizar implementação](https://github.com/williamroger/entendendo-algoritmos/tree/main/pesquisaBinaria)
