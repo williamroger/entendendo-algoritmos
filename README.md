@@ -17,3 +17,11 @@ Esse processo deverá ser repetido até que o elemento alvo seja encontrado, ou 
 Esse processo de dividir pela metade reduz drasticamente o número de elementos que precisamos verificar, tornando a busca binária muito eficiente. Pode parecer simples, mas é incrivelmente poderoso em listas grandes.
 
 [Visualizar implementação](https://github.com/williamroger/entendendo-algoritmos/blob/main/pesquisaBinaria/index.js)
+
+## 🔀 Ordenação por Seleção
+A ordenação por seleção é um algoritmo utilizado para organizar uma lista desorganizada de elementos em uma ordem específica, seja do menor para o maior, do maior para o menor ou em ordem alfabética. 
+Esse algoritmo recebe como entrada uma lista desordenada e retornar uma nova lista ordenada de acordo com o tipo de ordem que se deseja aplicar para a lista.
+
+Aplicando o algoritmo de Ordenação por Seleção para ordenar uma lista em ordem crescente (do menor para o maior).
+
+A ordenação por seleção crescente é feita em algumas etapas, que consiste basicamente em percorrer a lista desordenada encontrar o índice de onde está posicionado o menor valor dessa lista e criar uma nova lista ordenada a partir dessa informação tranferindo os valores da lista desordenada para a nova lista ordenada.
