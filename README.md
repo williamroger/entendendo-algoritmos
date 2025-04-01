@@ -25,3 +25,5 @@ Esse algoritmo recebe como entrada uma lista desordenada e retornar uma nova lis
 Aplicando o algoritmo de Ordenação por Seleção para ordenar uma lista em ordem crescente (do menor para o maior).
 
 A ordenação por seleção crescente é feita em algumas etapas, que consiste basicamente em percorrer a lista desordenada encontrar o índice de onde está posicionado o menor valor dessa lista e criar uma nova lista ordenada a partir dessa informação tranferindo os valores da lista desordenada para a nova lista ordenada.
+
+[Visualizar implementação](https://github.com/williamroger/entendendo-algoritmos/blob/main/ordenacaoPorSelecao/index.js)
