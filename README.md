@@ -19,7 +19,7 @@ Esse processo de dividir pela metade reduz drasticamente o número de elementos 
 [Visualizar implementação](https://github.com/williamroger/entendendo-algoritmos/blob/main/pesquisaBinaria/index.js)
 
 ## 🔀 Ordenação por Seleção
-A ordenação por seleção é um algoritmo utilizado para organizar uma lista desorganizada de elementos em uma ordem específica, seja do menor para o maior, do maior para o menor ou em ordem alfabética. 
+A ordenação por seleção é um algoritmo utilizado para organizar listas de elementos desorganizadas em uma ordem específica, seja do menor para o maior, do maior para o menor ou em ordem alfabética. 
 Esse algoritmo recebe como entrada uma lista desordenada e retornar uma nova lista ordenada de acordo com o tipo de ordem que se deseja aplicar para a lista.
 
 Aplicando o algoritmo de Ordenação por Seleção para ordenar uma lista em ordem crescente (do menor para o maior).
