@@ -27,3 +27,16 @@ Aplicando o algoritmo de Ordenação por Seleção para ordenar uma lista em ord
 A ordenação por seleção crescente é feita em algumas etapas, que consiste basicamente em percorrer a lista desordenada encontrar o índice de onde está posicionado o menor valor dessa lista e criar uma nova lista ordenada a partir dessa informação tranferindo os valores da lista desordenada para a nova lista ordenada.
 
 [Visualizar implementação](https://github.com/williamroger/entendendo-algoritmos/blob/main/ordenacaoPorSelecao/index.js)
+
+## 🔄 Recursão
+Recursão é quando uma função chama a si mesma, até que uma condição seja verdadeira e a execução da função seja interrompida.
+
+Toda função recursiva precisa informar quando a recursão deve parar de acontecer, caso contrário a função entrará em um loop infinito e isso faz com que tenhamos um sobrefluxo da pilha de chamada (call stack) mais conhecido como "stack overflow" que ocorre quando ficamos sem memória para manter os itens na pilha.
+
+Uma função recursiva deve possuir em sua estrutura duas partes fundamentais: o caso-base e o caso recursivo.
+- O caso recursivo é quando a função chama a si mesma.
+- O caso base (também conhecido como condição base) é quando a função não chama a si mesma novamente, isso acontece quando uma condição dentro da função é verdadeira e a execução da função é interrompida, o que garante que a função não entrará em um loop infinito.
+
+As funções recursivas utilizam a pilha de chamada (call stack) para armazenar valores de variáveis a cada chamada de função, literalmente ”empilhando” uma função em cima da outra, e removendo as funções sempre que a execução de uma função chega ao fim.
+
+[Visualizar implementação](https://github.com/williamroger/entendendo-algoritmos/blob/main/recursao/index.js)
